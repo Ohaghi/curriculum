@@ -3,7 +3,7 @@ package study;
 /**
  * Study.java
  */
-class Account {
+class Account{
 
 	// フィールド変数
 	private String userName;
