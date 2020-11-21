@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    width:400px;
+}
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+.header{
+    height:100px;
+    background-color: #141f40;
+}
+
+.left{
+    float:left;
+    width:150px;
+    background-color: #80bfa8;
+    height:250px;
+}
+
+.right{
+    display: inline-block;
+    float: right;
+    width:250px;
+    background-color: #8c2727;
+    height:250px;
+}
+.footer{
+    height:100px;
+    background-color: #d98d30;
+}
