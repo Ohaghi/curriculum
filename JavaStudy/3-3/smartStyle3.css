@@ -1,0 +1,39 @@
+@media screen and (max-width:479px){
+    .wrapper{
+        width:200px;
+    }
+    .header{
+        height:200px;
+        overflow: hidden;
+    }
+    .header-box{
+        overflow: hidden;
+        margin:20px 70px;
+        float:none;
+        height:160px;
+    }
+    .header-item{
+        float:none;
+        margin:0 10px 10px 10px;
+    }
+    .first{
+        margin-top:10px;
+    }
+    .left{
+        width:200px;
+        height:100px;
+        float:none;
+    }
+    .right{
+        overflow: hidden;
+        width:200px;
+        float:none;
+        height:210px;
+    }
+    .right-box{
+        margin:20px 30px;
+    }
+    .right-item{
+        width:140px;
+    }
+}
