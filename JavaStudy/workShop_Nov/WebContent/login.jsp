@@ -39,7 +39,7 @@
     <main>
         <article>
             <h3>Welcom!! We WorkShop </h3>
-            <form action="/workShop_october/login"" method="POST" class="touroku">
+            <form action="/workShop_october/login" method="POST" class="touroku">
 	            <i class="fas fa-child"></i>
 	            <input type="text" name="name" placeholder="Username" class="name"/>
 	            <br>
