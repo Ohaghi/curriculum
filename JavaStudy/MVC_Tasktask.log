@@ -1,0 +1,336 @@
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: Serverのバージョン名:     Apache Tomcat/9.0.39
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server ビルド:            Oct 6 2020 14:11:46 UTC
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: サーバーのバージョン番号: 9.0.39.0
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS 名:                    Windows 10
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS バージョン:            10.0
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: アーキテクチャ:           amd64
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: Java Home:                C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\java\11
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM バージョン:           11.0.9+11
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM ベンダ:               AdoptOpenJDK
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_BASE:            C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_HOME:            C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\tomcat\9
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dcatalina.base=C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dcatalina.home=C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\tomcat\9
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dwtp.deploy=C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps
+2月 03, 2021 8:51:17 午前 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dfile.encoding=UTF-8
+2月 03, 2021 8:51:17 午前 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\java\11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/tomo-/Downloads/pleiades-2020-12-java-win-64bit-jre_20201101 (2)/pleiades/eclipse//jre/bin/server;C:/Users/tomo-/Downloads/pleiades-2020-12-java-win-64bit-jre_20201101 (2)/pleiades/eclipse//jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-15.0.1\bin;C:\Ruby24-x64\bin;C:\Users\tomo-\AppData\Local\Microsoft\WindowsApps;C:\Users\tomo-\AppData\Local\atom\bin;C:\Users\tomo-\AppData\Local\Yarn\bin;C:\Users\tomo-\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tomo-\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\eclipse;;.] に存在しません。
+2月 03, 2021 8:51:19 午前 org.apache.coyote.AbstractProtocol init
+情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。
+2月 03, 2021 8:51:21 午前 org.apache.catalina.startup.Catalina load
+情報: サーバーの初期化 [5505]ms
+2月 03, 2021 8:51:21 午前 org.apache.catalina.core.StandardService startInternal
+情報: サービス [Catalina] を起動します
+2月 03, 2021 8:51:21 午前 org.apache.catalina.core.StandardEngine startInternal
+情報: サーブレットエンジンの起動：[Apache Tomcat/9.0.39]
+2月 03, 2021 8:51:23 午前 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+警告: セッション ID を生成するための SecureRandom インスタンスの作成に [362] ミリ秒かかりました。アルゴリズムは [SHA1PRNG] です。
+2月 03, 2021 8:51:24 午前 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 8:51:24 午前 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 8:51:25 午前 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 8:51:26 午前 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 8:51:26 午前 org.apache.coyote.AbstractProtocol start
+情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。
+2月 03, 2021 8:51:26 午前 org.apache.catalina.startup.Catalina start
+情報: サーバーの起動 [4971]ms
+[MEMORY:43916840][2021/02/03 08:51:29.628] [org.apache.jsp.login_jsp] [_jspService] [161] セッションなし
+[MEMORY:44536920][2021/02/03 08:51:39.341] [skillcheck.controller.BaseServlet] [<init>] [56] START
+[MEMORY:44536920][2021/02/03 08:51:39.347] [skillcheck.controller.BaseServlet] [<init>] [60] END
+[MEMORY:44536920][2021/02/03 08:51:39.367] [skillcheck.controller.EmployeeManagementController] [doPost] [99] START
+[MEMORY:44536920][2021/02/03 08:51:39.374] [skillcheck.controller.EmployeeManagementController] [getRequestType] [195] START
+[MEMORY:44536920][2021/02/03 08:51:39.384] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] requestTypeName = login
+[MEMORY:44536920][2021/02/03 08:51:39.391] [skillcheck.controller.EmployeeManagementController] [getRequestType] [217] this.responseBean = skillcheck.bean.ResponseBean@7e87f0b3
+[MEMORY:44965432][2021/02/03 08:51:39.393] [skillcheck.controller.EmployeeManagementController] [getRequestType] [227] END
+[MEMORY:44965432][2021/02/03 08:51:39.395] [skillcheck.controller.EmployeeManagementController] [doPost] [127] RequestType = LOGIN
+[MEMORY:44965432][2021/02/03 08:51:39.401] [skillcheck.service.BaseService] [<init>] [38] START
+[MEMORY:44965432][2021/02/03 08:51:39.406] [skillcheck.service.BaseService] [<init>] [45] END
+[MEMORY:44965432][2021/02/03 08:51:39.411] [skillcheck.controller.EmployeeManagementController] [lambda$1] [143] reqEmpId = 00396
+[MEMORY:44965432][2021/02/03 08:51:39.416] [skillcheck.controller.EmployeeManagementController] [doPost] [148] --- ログイン ---
+[MEMORY:44965432][2021/02/03 08:51:39.421] [skillcheck.controller.BaseServlet] [validateLogin] [137] START
+[MEMORY:44965432][2021/02/03 08:51:39.430] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [52] START
+[MEMORY:44965432][2021/02/03 08:51:39.432] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [69] START
+[MEMORY:44965432][2021/02/03 08:51:39.433] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [70] ExecuteCase = FIND_BY_EMPID
+[MEMORY:44965432][2021/02/03 08:51:39.433] [skillcheck.service.BaseService] [executeGetConnection] [52] START
+[MEMORY:51256872][2021/02/03 08:51:40.290] [skillcheck.service.BaseService] [executeGetConnection] [79] END
+[MEMORY:51256872][2021/02/03 08:51:40.292] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [166] START
+[MEMORY:51256872][2021/02/03 08:51:40.293] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [203] pEmployeeBeanList[0].empId = 00396
+[MEMORY:51686080][2021/02/03 08:51:40.468] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [228] SQL: select empid,Password,Name,Mail,ProgramingLanguage,Comment from Employee WHERE empId = '00396' AND deleteFlg = '0'
+[MEMORY:51686080][2021/02/03 08:51:40.469] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [247] END
+[MEMORY:51686080][2021/02/03 08:51:40.478] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [87] meta = org.postgresql.jdbc.PgResultSetMetaData@782c7bce
+[MEMORY:51686080][2021/02/03 08:51:40.480] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [94] empid: 00396
+[MEMORY:51686080][2021/02/03 08:51:40.481] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [94] password: c9575b246c385b16e002813b22a5cc072f5cb6c8853c2ef1d5d348006d0cfd6a
+[MEMORY:51686080][2021/02/03 08:51:40.483] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [94] name: 萩智美
+[MEMORY:51686080][2021/02/03 08:51:40.484] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [94] mail: t-hagi@y-i-group.co.jp
+[MEMORY:51686080][2021/02/03 08:51:40.485] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [94] programinglanguage: Javaとイタリア語だよ
+[MEMORY:51686080][2021/02/03 08:51:40.486] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [121] reqStatus  = 0
+[MEMORY:51686080][2021/02/03 08:51:40.487] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [122] reqMessage = 
+[MEMORY:51686080][2021/02/03 08:51:40.489] [skillcheck.service.BaseService] [executeCloseSQL] [117] START
+[MEMORY:51876952][2021/02/03 08:51:40.495] [skillcheck.service.BaseService] [executeCloseSQL] [128] END
+[MEMORY:51876952][2021/02/03 08:51:40.496] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [152] END
+[MEMORY:51876952][2021/02/03 08:51:40.497] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [56] END
+[MEMORY:52305464][2021/02/03 08:51:40.658] [skillcheck.util.PasswordHashUtil] [getSafetyPassword] [63] HASHED: c9575b246c385b16e002813b22a5cc072f5cb6c8853c2ef1d5d348006d0cfd6a
+[MEMORY:52305464][2021/02/03 08:51:40.660] [skillcheck.controller.BaseServlet] [validateLogin] [191] isLoginError = false
+[MEMORY:52305464][2021/02/03 08:51:40.661] [skillcheck.controller.BaseServlet] [validateLogin] [193] END
+[MEMORY:52305464][2021/02/03 08:51:40.662] [skillcheck.controller.EmployeeManagementController] [doPost] [163] reqStatus  = 0
+[MEMORY:52305464][2021/02/03 08:51:40.663] [skillcheck.controller.EmployeeManagementController] [doPost] [164] reqMessage = ログインに成功しました。
+[MEMORY:52305464][2021/02/03 08:51:40.664] [skillcheck.controller.EmployeeManagementController] [doPost] [171] 遷移先 = /employeeResult.jsp
+[MEMORY:52740288][2021/02/03 08:51:40.713] [org.apache.jsp.employeeResult_jsp] [_jspService] [149] セッションあり: loginEmpId = 00396
+[MEMORY:52740288][2021/02/03 08:51:40.715] [skillcheck.controller.EmployeeManagementController] [doPost] [184] END
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Serverのバージョン名:     Apache Tomcat/9.0.39
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server ビルド:            Oct 6 2020 14:11:46 UTC
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: サーバーのバージョン番号: 9.0.39.0
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS 名:                    Windows 10
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS バージョン:            10.0
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: アーキテクチャ:           amd64
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Java Home:                C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\java\11
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM バージョン:           11.0.9+11
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM ベンダ:               AdoptOpenJDK
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_BASE:            C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_HOME:            C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\tomcat\9
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dcatalina.base=C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dcatalina.home=C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\tomcat\9
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dwtp.deploy=C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps
+2月 03, 2021 9:55:51 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dfile.encoding=UTF-8
+2月 03, 2021 9:55:51 午後 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\java\11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/tomo-/Downloads/pleiades-2020-12-java-win-64bit-jre_20201101 (2)/pleiades/eclipse//jre/bin/server;C:/Users/tomo-/Downloads/pleiades-2020-12-java-win-64bit-jre_20201101 (2)/pleiades/eclipse//jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-15.0.1\bin;C:\Ruby24-x64\bin;C:\Users\tomo-\AppData\Local\Microsoft\WindowsApps;C:\Users\tomo-\AppData\Local\atom\bin;C:\Users\tomo-\AppData\Local\Yarn\bin;C:\Users\tomo-\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tomo-\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\eclipse;;.] に存在しません。
+2月 03, 2021 9:55:52 午後 org.apache.coyote.AbstractProtocol init
+情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。
+2月 03, 2021 9:55:53 午後 org.apache.catalina.startup.Catalina load
+情報: サーバーの初期化 [2397]ms
+2月 03, 2021 9:55:53 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス [Catalina] を起動します
+2月 03, 2021 9:55:53 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: サーブレットエンジンの起動：[Apache Tomcat/9.0.39]
+2月 03, 2021 9:55:54 午後 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+警告: セッション ID を生成するための SecureRandom インスタンスの作成に [291] ミリ秒かかりました。アルゴリズムは [SHA1PRNG] です。
+2月 03, 2021 9:55:55 午後 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 9:55:55 午後 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 9:55:56 午後 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 9:55:57 午後 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 9:55:57 午後 org.apache.coyote.AbstractProtocol start
+情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。
+2月 03, 2021 9:55:57 午後 org.apache.catalina.startup.Catalina start
+情報: サーバーの起動 [4349]ms
+[MEMORY:26441192][2021/02/03 09:55:59.125] [org.apache.jsp.login_jsp] [_jspService] [161] セッションなし
+[MEMORY:26441192][2021/02/03 09:56:08.608] [skillcheck.controller.BaseServlet] [<init>] [56] START
+[MEMORY:26441192][2021/02/03 09:56:08.615] [skillcheck.controller.BaseServlet] [<init>] [60] END
+[MEMORY:26441192][2021/02/03 09:56:08.624] [skillcheck.controller.EmployeeManagementController] [doPost] [99] START
+[MEMORY:26441192][2021/02/03 09:56:08.627] [skillcheck.controller.EmployeeManagementController] [doPost] [163] reqStatus  = 0
+[MEMORY:26441192][2021/02/03 09:56:08.629] [skillcheck.controller.EmployeeManagementController] [doPost] [164] reqMessage = null
+[MEMORY:26441192][2021/02/03 09:56:08.629] [skillcheck.controller.EmployeeManagementController] [doPost] [171] 遷移先 = null
+2月 03, 2021 9:56:08 午後 org.apache.catalina.core.StandardWrapperValve invoke
+重大: サーブレット [employee] のServlet.service()が例外を投げました
+java.lang.NullPointerException
+	at skillcheck.controller.EmployeeManagementController.doPost(EmployeeManagementController.java:175)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Serverのバージョン名:     Apache Tomcat/9.0.39
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server ビルド:            Oct 6 2020 14:11:46 UTC
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: サーバーのバージョン番号: 9.0.39.0
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS 名:                    Windows 10
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS バージョン:            10.0
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: アーキテクチャ:           amd64
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Java Home:                C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\java\11
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM バージョン:           11.0.9+11
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM ベンダ:               AdoptOpenJDK
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_BASE:            C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_HOME:            C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\tomcat\9
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dcatalina.base=C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dcatalina.home=C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\tomcat\9
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dwtp.deploy=C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps
+2月 03, 2021 9:57:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: コマンドライン引数:       -Dfile.encoding=UTF-8
+2月 03, 2021 9:57:00 午後 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\java\11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/tomo-/Downloads/pleiades-2020-12-java-win-64bit-jre_20201101 (2)/pleiades/eclipse//jre/bin/server;C:/Users/tomo-/Downloads/pleiades-2020-12-java-win-64bit-jre_20201101 (2)/pleiades/eclipse//jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-15.0.1\bin;C:\Ruby24-x64\bin;C:\Users\tomo-\AppData\Local\Microsoft\WindowsApps;C:\Users\tomo-\AppData\Local\atom\bin;C:\Users\tomo-\AppData\Local\Yarn\bin;C:\Users\tomo-\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tomo-\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\tomo-\Downloads\pleiades-2020-12-java-win-64bit-jre_20201101 (2)\pleiades\eclipse;;.] に存在しません。
+2月 03, 2021 9:57:01 午後 org.apache.coyote.AbstractProtocol init
+情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。
+2月 03, 2021 9:57:01 午後 org.apache.catalina.startup.Catalina load
+情報: サーバーの初期化 [2477]ms
+2月 03, 2021 9:57:01 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス [Catalina] を起動します
+2月 03, 2021 9:57:01 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: サーブレットエンジンの起動：[Apache Tomcat/9.0.39]
+2月 03, 2021 9:57:02 午後 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+警告: セッション ID を生成するための SecureRandom インスタンスの作成に [309] ミリ秒かかりました。アルゴリズムは [SHA1PRNG] です。
+2月 03, 2021 9:57:03 午後 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 9:57:04 午後 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 9:57:04 午後 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 9:57:05 午後 org.apache.jasper.servlet.TldScanner scanJars
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+2月 03, 2021 9:57:05 午後 org.apache.coyote.AbstractProtocol start
+情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。
+2月 03, 2021 9:57:05 午後 org.apache.catalina.startup.Catalina start
+情報: サーバーの起動 [3823]ms
+[MEMORY:78225472][2021/02/03 09:57:06.616] [skillcheck.controller.BaseServlet] [<init>] [56] START
+[MEMORY:78225472][2021/02/03 09:57:06.624] [skillcheck.controller.BaseServlet] [<init>] [60] END
+[MEMORY:78225472][2021/02/03 09:57:06.639] [skillcheck.controller.EmployeeManagementController] [doGet] [40] START
+[MEMORY:78225472][2021/02/03 09:57:06.641] [skillcheck.service.BaseService] [<init>] [38] START
+[MEMORY:78225472][2021/02/03 09:57:06.642] [skillcheck.service.BaseService] [<init>] [45] END
+[MEMORY:78747712][2021/02/03 09:57:06.642] [skillcheck.controller.BaseServlet] [validateSession] [73] START
+[MEMORY:78747712][2021/02/03 09:57:06.643] [skillcheck.controller.BaseServlet] [validateSession] [81] セッションなし or New: リダイレクト
+[MEMORY:78747712][2021/02/03 09:57:06.658] [skillcheck.controller.BaseServlet] [validateSession] [105] END
+[MEMORY:78747712][2021/02/03 09:57:06.659] [skillcheck.controller.EmployeeManagementController] [doGet] [53] hasSession = false
+[MEMORY:78747712][2021/02/03 09:57:06.660] [skillcheck.controller.EmployeeManagementController] [getRequestType] [195] START
+[MEMORY:78747712][2021/02/03 09:57:06.663] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] requestTypeName = null
+[MEMORY:78747712][2021/02/03 09:57:06.666] [skillcheck.controller.EmployeeManagementController] [getRequestType] [217] this.responseBean = skillcheck.bean.ResponseBean@314c39f9
+■ 例外発生: [skillcheck.controller.EmployeeManagementController] [getRequestType] [223]
+[MEMORY:78747712][2021/02/03 09:57:06.670] [skillcheck.controller.EmployeeManagementController] [doGet] [80] reqStatus  = 1
+[MEMORY:78747712][2021/02/03 09:57:06.671] [skillcheck.controller.EmployeeManagementController] [doGet] [81] reqMessage = 不明なリクエストが実行されました。
+[MEMORY:78747712][2021/02/03 09:57:06.672] [skillcheck.controller.EmployeeManagementController] [doGet] [85] 遷移先 = null
+[MEMORY:78747712][2021/02/03 09:57:06.673] [skillcheck.controller.EmployeeManagementController] [doGet] [94] END
+[MEMORY:83990592][2021/02/03 09:57:07.134] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:83990592][2021/02/03 09:57:07.137] [org.apache.jsp.login_jsp] [_jspService] [171] redirect = セッションがタイムアウトしました。<br>再ログインしてください。
+[MEMORY:83990592][2021/02/03 09:57:07.138] [org.apache.jsp.login_jsp] [_jspService] [188] message = セッションがタイムアウトしました。<br>再ログインしてください。
+[MEMORY:83990592][2021/02/03 09:57:09.873] [skillcheck.controller.EmployeeManagementController] [doPost] [99] START
+[MEMORY:83990592][2021/02/03 09:57:09.876] [skillcheck.controller.EmployeeManagementController] [getRequestType] [195] START
+[MEMORY:83990592][2021/02/03 09:57:09.879] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] requestTypeName = login
+[MEMORY:83990592][2021/02/03 09:57:09.880] [skillcheck.controller.EmployeeManagementController] [getRequestType] [217] this.responseBean = skillcheck.bean.ResponseBean@215b8d35
+[MEMORY:83990592][2021/02/03 09:57:09.882] [skillcheck.controller.EmployeeManagementController] [getRequestType] [227] END
+[MEMORY:83990592][2021/02/03 09:57:09.884] [skillcheck.controller.EmployeeManagementController] [doPost] [127] RequestType = LOGIN
+[MEMORY:83990592][2021/02/03 09:57:09.885] [skillcheck.service.BaseService] [<init>] [38] START
+[MEMORY:83990592][2021/02/03 09:57:09.886] [skillcheck.service.BaseService] [<init>] [45] END
+[MEMORY:83990592][2021/02/03 09:57:09.888] [skillcheck.controller.EmployeeManagementController] [lambda$1] [143] reqEmpId = 
+[MEMORY:83990592][2021/02/03 09:57:09.888] [skillcheck.controller.EmployeeManagementController] [doPost] [148] --- ログイン ---
+[MEMORY:83990592][2021/02/03 09:57:09.890] [skillcheck.controller.BaseServlet] [validateLogin] [137] START
+[MEMORY:83990592][2021/02/03 09:57:09.902] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [52] START
+[MEMORY:83990592][2021/02/03 09:57:09.904] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [69] START
+[MEMORY:83990592][2021/02/03 09:57:09.905] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [70] ExecuteCase = FIND_BY_EMPID
+[MEMORY:83990592][2021/02/03 09:57:09.906] [skillcheck.service.BaseService] [executeGetConnection] [52] START
+[MEMORY:90282048][2021/02/03 09:57:10.810] [skillcheck.service.BaseService] [executeGetConnection] [79] END
+[MEMORY:90282048][2021/02/03 09:57:10.810] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [166] START
+[MEMORY:90282048][2021/02/03 09:57:10.811] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [203] pEmployeeBeanList[0].empId = 
+[MEMORY:90808384][2021/02/03 09:57:10.904] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [228] SQL: select empid,Password,Name,Mail,ProgramingLanguage,Comment from Employee WHERE empId = '' AND deleteFlg = '0'
+[MEMORY:90808384][2021/02/03 09:57:10.907] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [247] END
+[MEMORY:90808384][2021/02/03 09:57:10.917] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [87] meta = org.postgresql.jdbc.PgResultSetMetaData@40a61113
+[MEMORY:90808384][2021/02/03 09:57:10.918] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [121] reqStatus  = 0
+[MEMORY:90808384][2021/02/03 09:57:10.919] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [122] reqMessage = 
+[MEMORY:90808384][2021/02/03 09:57:10.923] [skillcheck.service.BaseService] [executeCloseSQL] [117] START
+[MEMORY:90808384][2021/02/03 09:57:10.929] [skillcheck.service.BaseService] [executeCloseSQL] [128] END
+[MEMORY:90808384][2021/02/03 09:57:10.931] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [152] END
+[MEMORY:90808384][2021/02/03 09:57:10.932] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [56] END
+[MEMORY:90808384][2021/02/03 09:57:10.932] [skillcheck.controller.BaseServlet] [validateLogin] [191] isLoginError = true
+[MEMORY:90808384][2021/02/03 09:57:10.933] [skillcheck.controller.BaseServlet] [validateLogin] [193] END
+[MEMORY:90808384][2021/02/03 09:57:10.933] [skillcheck.controller.EmployeeManagementController] [doPost] [163] reqStatus  = 0
+[MEMORY:90808384][2021/02/03 09:57:10.934] [skillcheck.controller.EmployeeManagementController] [doPost] [164] reqMessage = 該当する社員情報がありません。
+[MEMORY:90808384][2021/02/03 09:57:10.934] [skillcheck.controller.EmployeeManagementController] [doPost] [171] 遷移先 = null
+[MEMORY:90808384][2021/02/03 09:57:10.935] [skillcheck.controller.EmployeeManagementController] [doPost] [184] END
+[MEMORY:91330624][2021/02/03 09:57:10.942] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:91330624][2021/02/03 09:57:10.944] [org.apache.jsp.login_jsp] [_jspService] [188] message = 該当する社員情報がありません。
+[MEMORY:91330624][2021/02/03 09:57:19.100] [skillcheck.controller.EmployeeManagementController] [doPost] [99] START
+[MEMORY:91330624][2021/02/03 09:57:19.101] [skillcheck.controller.EmployeeManagementController] [getRequestType] [195] START
+[MEMORY:91330624][2021/02/03 09:57:19.107] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] requestTypeName = login
+[MEMORY:91330624][2021/02/03 09:57:19.109] [skillcheck.controller.EmployeeManagementController] [getRequestType] [217] this.responseBean = skillcheck.bean.ResponseBean@3b86fcf2
+[MEMORY:91330624][2021/02/03 09:57:19.109] [skillcheck.controller.EmployeeManagementController] [getRequestType] [227] END
+[MEMORY:91330624][2021/02/03 09:57:19.110] [skillcheck.controller.EmployeeManagementController] [doPost] [127] RequestType = LOGIN
+[MEMORY:91330624][2021/02/03 09:57:19.111] [skillcheck.service.BaseService] [<init>] [38] START
+[MEMORY:91330624][2021/02/03 09:57:19.112] [skillcheck.service.BaseService] [<init>] [45] END
+[MEMORY:91330624][2021/02/03 09:57:19.113] [skillcheck.controller.EmployeeManagementController] [lambda$1] [143] reqEmpId = 00396
+[MEMORY:91330624][2021/02/03 09:57:19.114] [skillcheck.controller.EmployeeManagementController] [doPost] [148] --- ログイン ---
+[MEMORY:91330624][2021/02/03 09:57:19.116] [skillcheck.controller.BaseServlet] [validateLogin] [137] START
+[MEMORY:91330624][2021/02/03 09:57:19.116] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [52] START
+[MEMORY:91330624][2021/02/03 09:57:19.118] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [69] START
+[MEMORY:91330624][2021/02/03 09:57:19.123] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [70] ExecuteCase = FIND_BY_EMPID
+[MEMORY:91330624][2021/02/03 09:57:19.124] [skillcheck.service.BaseService] [executeGetConnection] [52] START
+[MEMORY:91330624][2021/02/03 09:57:19.341] [skillcheck.service.BaseService] [executeGetConnection] [79] END
+[MEMORY:91330624][2021/02/03 09:57:19.342] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [166] START
+[MEMORY:91330624][2021/02/03 09:57:19.342] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [203] pEmployeeBeanList[0].empId = 00396
+[MEMORY:91864960][2021/02/03 09:57:19.357] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [228] SQL: select empid,Password,Name,Mail,ProgramingLanguage,Comment from Employee WHERE empId = '00396' AND deleteFlg = '0'
+[MEMORY:91864960][2021/02/03 09:57:19.357] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [247] END
+[MEMORY:91864960][2021/02/03 09:57:19.358] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [87] meta = org.postgresql.jdbc.PgResultSetMetaData@45b500
+[MEMORY:91864960][2021/02/03 09:57:19.359] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [94] empid: 00396
+[MEMORY:91864960][2021/02/03 09:57:19.359] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [94] password: c9575b246c385b16e002813b22a5cc072f5cb6c8853c2ef1d5d348006d0cfd6a
+[MEMORY:91864960][2021/02/03 09:57:19.360] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [94] name: 萩智美
+[MEMORY:91864960][2021/02/03 09:57:19.360] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [94] mail: t-hagi@y-i-group.co.jp
+[MEMORY:91864960][2021/02/03 09:57:19.361] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [94] programinglanguage: Javaとイタリア語だよ
+[MEMORY:91864960][2021/02/03 09:57:19.362] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [121] reqStatus  = 0
+[MEMORY:91864960][2021/02/03 09:57:19.363] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [122] reqMessage = 
+[MEMORY:91864960][2021/02/03 09:57:19.363] [skillcheck.service.BaseService] [executeCloseSQL] [117] START
+[MEMORY:91864960][2021/02/03 09:57:19.364] [skillcheck.service.BaseService] [executeCloseSQL] [128] END
+[MEMORY:91864960][2021/02/03 09:57:19.364] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [152] END
+[MEMORY:91864960][2021/02/03 09:57:19.365] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [56] END
+[MEMORY:92379200][2021/02/03 09:57:19.523] [skillcheck.util.PasswordHashUtil] [getSafetyPassword] [63] HASHED: c9575b246c385b16e002813b22a5cc072f5cb6c8853c2ef1d5d348006d0cfd6a
+[MEMORY:92379200][2021/02/03 09:57:19.524] [skillcheck.controller.BaseServlet] [validateLogin] [191] isLoginError = false
+[MEMORY:92379200][2021/02/03 09:57:19.525] [skillcheck.controller.BaseServlet] [validateLogin] [193] END
+[MEMORY:92379200][2021/02/03 09:57:19.525] [skillcheck.controller.EmployeeManagementController] [doPost] [163] reqStatus  = 0
+[MEMORY:92379200][2021/02/03 09:57:19.525] [skillcheck.controller.EmployeeManagementController] [doPost] [164] reqMessage = ログインに成功しました。
+[MEMORY:92379200][2021/02/03 09:57:19.526] [skillcheck.controller.EmployeeManagementController] [doPost] [171] 遷移先 = /employeeResult.jsp
+[MEMORY:92905536][2021/02/03 09:57:19.746] [org.apache.jsp.employeeResult_jsp] [_jspService] [149] セッションあり: loginEmpId = 00396
+[MEMORY:92905536][2021/02/03 09:57:19.748] [skillcheck.controller.EmployeeManagementController] [doPost] [184] END

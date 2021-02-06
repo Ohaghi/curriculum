@@ -73,8 +73,8 @@ public final class EmployeeBean {
      * @param mail <pre>メールアドレス</pre>
      * @param programingLanguage <pre>プログラミング言語</pre>
      * @param comment <pre>コメント</pre>
-     * @param comment <pre>コメント</pre>
-     * @param updateDate <pre>入力時間</pre>
+     * @param createDate <pre>入力時間</pre>
+     * @param updateDate <pre>更新時間</pre>
      * @param deleteFlg <pre>削除フラグ</pre>
      */
     public EmployeeBean(String empId, String password, String name, String mail, String programingLanguage, String comment,String createDate,String updateDate, String deleteFlg) {
@@ -155,6 +155,9 @@ public final class EmployeeBean {
     public void setCreateDate(String createDate) {
     	this._createDate=createDate;
     }
+    /**
+     * @return Strtingクラスの入力時間
+     */
     public String getCreateDate() {
     	return _createDate;
     }
@@ -164,6 +167,9 @@ public final class EmployeeBean {
     public void setUpdateDate(String updateDate) {
     	this._updateDate=updateDate;
     }
+    /*
+     * @return Stringクラスの更新時間
+     */
     public String getUpdateDate() {
     	return _updateDate;
     }
@@ -174,7 +180,7 @@ public final class EmployeeBean {
         this._deleteFlg = deleteFlg;
     }
 
-    /** @return String型の号コメント */
+    /** @return String型クラスの削除フラグ */
     public String getDeleteFlg() {
         return _deleteFlg;
     }

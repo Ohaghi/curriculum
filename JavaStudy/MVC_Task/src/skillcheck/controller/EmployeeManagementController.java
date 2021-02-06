@@ -44,7 +44,7 @@ public final class EmployeeManagementController extends BaseServlet {
         // FIXME Step-4-1: 社員情報管理サービスのインスタンスを生成しなさい。
         // Tips: 定義済みフィールド変数を使用
         // [ここへ記述]
-        ems= new EmployeeManagementService();
+        this.ems= new EmployeeManagementService();
         boolean hasSession = false;
 
         try {
@@ -138,7 +138,7 @@ public final class EmployeeManagementController extends BaseServlet {
             // FIXME Step-4-3: 社員情報管理サービスのインスタンス変数を生成しなさい。
             // Tips: 定義済みフィールド変数を使用
             // [ここへ記述]
-            ems= new EmployeeManagementService();
+            this.ems= new EmployeeManagementService();
             reqEmpIdList = rmdGetEmpIdList.apply(request);
             reqEmpIdList.forEach(id -> Logger.log(new Throwable(), "reqEmpId = " + id));
 
