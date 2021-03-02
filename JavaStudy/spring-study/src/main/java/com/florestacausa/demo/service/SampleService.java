@@ -22,7 +22,9 @@ public class SampleService {
 	public void insert(Samplebean samplebean) {
         sampleRepository.save(samplebean);
     }
-
+	public Samplebean save(Samplebean samplebean) {
+		return sampleRepository.save(samplebean);
+	}
     public void update(Samplebean samplebean) {
         sampleRepository.save(samplebean);
     }

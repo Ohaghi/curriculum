@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -16,12 +17,12 @@ import com.florestacausa.demo.service.SampleService;
 public class SampleController {
 	@Autowired
 	SampleService sampleService;
-
-	@GetMapping(value = "create")
-	ModelAndView index() {
+    //ModelAndViewの使い方確認を入力フォームと同じ画面に設置
+	@GetMapping(value = "/")
+	ModelAndView sample() {
 		ModelAndView mav = new ModelAndView();
 		mav.addObject("message", "Hello");
-		mav.setViewName("index");
+		mav.setViewName("signin");
 		return mav;
 	}
 
@@ -33,10 +34,14 @@ public class SampleController {
 	}
 
 	@GetMapping(value="/")
-	String create(@ModelAttribute Samplebean samplebean) {
-        return "create";
+	String index(@ModelAttribute Samplebean samplebean) {
+        return "index";
     }
 
-
+	@PostMapping(value="/create")
+    public String create(@ModelAttribute Samplebean samplebean) {
+        sampleService.save(samplebean);
+        return "redirect:/";
+    }
 
 }

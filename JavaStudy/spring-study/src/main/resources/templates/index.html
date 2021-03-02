@@ -5,23 +5,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>やっほー</h1>
-	<h2 th:text="${message}"></h2>
-	<form action="/create" method="post" th:object="${samplebean}">
-		<table>
-			<tr>
-				<td>名前</td>
-				<td><input type="text" name="name" th:field="*{name}"></td>
-			</tr>
-			<tr>
-				<td>好きな食べ物</td>
-				<td><input type="text" name="favfood" th:field="*{favfood}"></td>
-			</tr>
-		</table>
-		<input type="submit" value="ok">
-	</form>
-	<table >
-	</table>
-
+	<h1>一覧</h1>
+	<div>
+		<p th:text="${name}"></p>
+		<p th:text="${favfood}"></p>
+	</div>
 </body>
 </html>
