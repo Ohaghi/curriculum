@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div th:object="${member}>
+	<h1 th:text="おかえりなさい、*{first_name}さん!"></h1>
+		<div class="contents">
+			<div class="content contact-owner">大家さんに連絡</div>
+			<div class="content contact-roommates">ルームメイトに連絡</div>
+			<div class="content calendar">カレンダー</div>
+			<div class="content roommates-index">入居者一覧</div>
+		</div>
+	</div>
+</body>
+</html>

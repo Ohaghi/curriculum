@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form th:action="@{/}" th:method="post" th:object="${member}">
+		<table>
+			<tr>
+				<th><label>部屋番号</label></th>
+				<th><input th:field="roomno"></th>
+			</tr>
+				<th><label>パスワード</label></th>
+				<th><input th:field="password"></th>
+			<tr>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

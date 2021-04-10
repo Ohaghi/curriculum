@@ -8,42 +8,47 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name= "spstudy")
-public class Samplebean{
-
+@Table(name = "spstudy")
+public class Samplebean {
 
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
 
 	@Column(nullable = false)
 	private String name;
 	@Column
 	private String favfood;
 
+	public Samplebean() {
+
+	}
 	public Samplebean(Integer id, String name, String favfood) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.favfood = favfood;
 	}
 
-
 	public Integer getId() {
 		return id;
 	}
+
 	public void setId(Integer id) {
 		this.id = id;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public String getFavfood() {
 		return favfood;
 	}
+
 	public void setFavfood(String favfood) {
 		this.favfood = favfood;
 	}
