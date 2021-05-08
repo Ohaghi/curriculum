@@ -17,20 +17,20 @@
     </style>
 </head>
 <body>
-    <select onchange="changeLang()">
+    <select onchange="changeLang()" >
         <option id="select">選択してください</option>
         <option id="selected_jpn">日本語</option>
         <option id="selected_en">English</option>
         <option id="selected_all">全て表示</option>
     </select>
     <table>
-        <tr id="message_jpn">
+        <tr id="message_jpn" style = "display:none;">
             <th>日本</th>
             <td>こんにちは</td>
             <td>ありがとう</td>
             <td>さようなら</td>
         </tr>
-        <tr id="message_eng">
+        <tr id="message_eng" style = "display:none;">
             <th>English</th>
             <td>Hello</td>
             <td>Thank you</td>
@@ -41,7 +41,24 @@
     <script>
         //①onchangeで使用されている関数の中身を実装してください。
         function changeLang(){
-            var selectedlang = document.getElementById('');
+            var jpn = document.getElementById('selected_jpn');
+            var eng = document.getElementById('selected_en');
+            var all = document.getElementById('selected_all');
+            var msg_j = document.querySelector('#message_jpn');
+            var msg_e = document.querySelector('#message_eng');
+            if(jpn.selected){
+                msg_j.style.display = 'block';
+                msg_e.style.display = 'none';
+            }else if (eng.selected) {
+                msg_e.style.display = 'block'; 
+                msg_j.style.display = 'none';
+            }else if(all.selected){
+                msg_j.style.display = 'block';
+                msg_e.style.display = 'block';
+            }else{
+                msg_j.style.display = 'none';
+                msg_e.style.display = 'none';
+            }
         }
     </script>
 </body>
