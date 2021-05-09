@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja"">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+       <p>{{double()}}</p>
+       <input type="text" v-model="score"> 
+       <form v-on:submit.prevent="addItem">
+           <li v-for="item in items">{{item}}</li>
+           <input type="text" v-model="newItem">
+           <input type="submit">
+       </form>
+       <ul>
+           <li v-for="user in users">{{user.name}}は{{user.age}}歳</li>
+       </ul>
+
+       <ol>
+        <li>{{ getData() }}</li>
+        <li>{{ getData() }}</li>
+        <li>{{ getData() }}</li>
+      </ol>
+
+      算出プロパティ
+      <ol>
+        <li>{{ data }}</li>
+        <li>{{ data }}</li>
+        <li>{{ data }}</li>
+      </ol>
+
+      <p>{{ counter }}</p>
+    <button v-on:click = "counterBtn()">+1</button>
+    <p>{{ lessThanThree }}</p>
+    <p>{{ lessThanThreeMethod() }}（メソッド）</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="main.js"></script>
+</body>
+</html>
