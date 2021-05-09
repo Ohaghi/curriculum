@@ -39,7 +39,7 @@ var app = new Vue({
     computed:{
         undone:function(){
             let count = this.list.filter(function(todo){
-                return todo.isChecked;
+                return !todo.isChecked;
             }).length;
             return count;
         },
