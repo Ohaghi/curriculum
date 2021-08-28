@@ -40,7 +40,7 @@ public class EmployeeService {
  EmployeeBean employeeDate = null;
 
   // 送信されたIDとPassWordを元に社員情報を検索するためのメソッド
- public EmployeeBean search(String id, String password) {
+ public EmployeeBean search(String id, String password){
 
  Connection connection = null;
  Statement statement = null;

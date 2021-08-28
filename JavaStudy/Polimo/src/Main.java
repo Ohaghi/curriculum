@@ -1,26 +1,20 @@
 public class Main {
-  public static void main(String[] args) {
-    Vehicle[] vehicles =  {new Car(), new Airplane(), new Bicycle(), new Vehicle()};
+	public static void main(String[] args) {
+		Animal cat = new Cat("ねこ", 10, "にゃあ");
+		Animal dog = new Dog("いぬ", 16, "わん");
+		Animal ele = new Elephant("ぞう", 500, "ぱおん");
 
-    for (Vehicle v : vehicles) {
-      v.introduce();
-    }
-  }
-}
+		measure(cat);
+		measure(dog);
+		measure(ele);
 
-class Vehicle {
-  public void introduce() { System.out.println("これは乗り物です。"); }
-}
+		cat.talk();
+		dog.talk();
+		ele.talk();
 
-class Car extends Vehicle {
-  @Override
-  public void introduce() { System.out.println("この乗り物は車です"); }
-}
-class Airplane extends Vehicle {
-  @Override
-  public void introduce() { System.out.println("この乗り物は飛行機です！"); }
-}
-class Bicycle extends Vehicle{
-  @Override
-  public void introduce() { System.out.println("この乗り物は自転車です！"); }
+	}
+
+	public static void measure(Animal a) {
+		System.out.println(a.getName() + "の体重は" + a.getWeight() + "kgです");
+	}
 }

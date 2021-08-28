@@ -1,8 +1,8 @@
 let a=3;
-let b=13;
+let b=12;
 console.log("問１");
 console.log(a !== 10);
-console.log(b>=10 && b<20);
+console.log(b>=10 && b<20 && b%2===0);
 console.log("----------");
 
 console.log("問２");
